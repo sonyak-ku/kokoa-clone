@@ -1,0 +1,72 @@
+.usr-component {
+    margin-top: 13px;
+    padding: 0 0 18px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.usr-component__column {
+    display: flex;
+    align-items: center;
+}
+
+.usr-component__number{
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: 600;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+.usr-component__picture {
+    width: 70px;
+    height: 70px;
+    border-radius: 20%;
+}
+
+.usr-component__picture--size-down {
+    width: 50px;
+    height: 50px;
+}
+
+.usr-component__descript {
+    padding-left: 15px;
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.usr-component__name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.usr-component__name--weight-down{
+    font-weight: 400;
+}
+
+.usr-component__twit {
+    font-size: 15px;
+    color: gray;
+}
+
+.usr-component__chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.usr-component__red-circle {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: #FF6228;
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+    font-size: 12px;
+}
+

@@ -1,0 +1,41 @@
+.screen-header {
+    margin-top: 25px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    padding: 30px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.screen-header__title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.screen-header__icons-size {
+    font-size: 20px;
+}
+
+.screen-header__icons--left-margin{
+    margin-left: 20px;
+}
+
+.screen-header__container {
+    position: relative;
+    
+}
+
+.screen-header__red-dot {
+    display: flex;
+    width: 5px;
+    height: 5px;
+    background-color: #FF6228;
+    border-radius: 50%;
+    position: absolute;
+    top: -7px;
+    right: -5px;
+}

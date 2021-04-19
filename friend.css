@@ -1,0 +1,31 @@
+.body {
+    height: 200vh;
+}
+
+
+.friends-display {
+    height: 40px;
+    width: 100%;
+    background-color: #F9F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.friends-display > span {
+    margin-left: 10px;
+}
+
+.icon-silver {
+    color: silver;
+}
+
+.friends-display__text {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+

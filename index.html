@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi fa-sm"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>4:42</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fas fa-battery-full"></i>
+            <i class="fas fa-bolt fa-sm"></i>
+        </div>
+    </div>
+
+    <div class="welcome">
+        <span class="welcome__head">Welcome to KoKoaTalk</span>
+        <div class="welcome__text">
+            <span>if you have a Kokoa Account,</span>
+            <span>log in with your email or phone number</span>
+        </div>
+    </div>
+
+
+    <form action="friends.html" method="get" class="log-in">
+        <input class="log-in__input" name="user" type="email/tel" placeholder="Email or phone number(ex. 123-1234-1234)"
+            pattern="^([a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3})|(\d{3}-\d{4}-\d{4})$" required>
+        <input class="log-in__input" name="password" type="password" placeholder="Password" required>
+        <input class="log-in__btn" type="submit" value="Log in">
+        <input class="log-in__btn" type="submit" value="Sign Up">
+        <a href="#">Find Kokoa Account or Password</a>
+    </form>
+
+    <p>I have to figure out what's going on..</p>
+
+
+</body>
+
+</html>

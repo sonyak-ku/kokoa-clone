@@ -1,0 +1,82 @@
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.welcome > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome__head {
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.welcome__text {
+    color: grey;
+    font-size: 17px; 
+    letter-spacing: 1px;
+}
+
+.welcome__text >span:first-child {
+    margin-bottom: 2px;
+}
+
+.log-in {
+    margin: 0 25px;
+    display: flex;
+    flex-direction: column;
+}
+.log-in__input {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+    transition: border-bottom 0.3s ease-in;
+}
+
+.log-in__input:focus {
+    border-bottom: black solid 2px; 
+}
+
+.log-in__input::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+}
+
+.log-in__input:nth-child(2){
+    margin-bottom: 35px;
+}
+
+.log-in__btn{
+    height: 55px;
+    border: none;
+    margin-bottom: 15px;
+    background-color: #f3f4f6;
+    transition: transform ease-in-out 0.5s;
+    transition: color ease-in-out 0.5s;
+    transition: background-color ease-in-out 0.5s;
+    border-radius: 5px;
+}
+
+.log-in__btn:hover {
+    transform: scale(1.05, 1.05);
+    color: white;
+    background-color: black;
+}
+
+.log-in > a {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+    transition: color ease-in-out 0.5s;
+}
+
+.log-in > a:hover {
+    color: black;
+}
